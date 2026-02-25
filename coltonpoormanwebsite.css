@@ -1,0 +1,279 @@
+body {
+    font-family: 'courier new', monospace;
+    max-width: auto;
+    margin: 0 auto;
+    padding: 25px;
+    line-height: 1.6;
+    background-color: hsl(0, 0%, 5%);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 94vh;
+}
+
+header {
+  min-height: 50px;
+}
+
+div[id=header-content] a {
+    margin: 0 10px;
+    display: inline-block;
+    display: 50%;
+}
+
+div[id=cover-art-div] {
+    width: auto;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 0;   
+    float: left;
+}
+
+div[id=release-info] {
+    width: auto;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+    float: right;
+}
+
+h3 {
+    color: #f6f6f6;
+    margin-bottom: 5px;
+}
+
+p[id=release-description] {
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+}
+
+h3[id=credits] {
+    text-align: center;
+}
+
+div[id=release-page] {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+
+input[id=homeButton]
+{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+p {
+    color: #d8d8d8;
+}
+
+p[id="welcome-text"] {
+    color: #f6f6f6;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;  
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+div[id=latest-release] {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto; 
+    text-align: center;
+}
+
+div[id=release-links] {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+img[id=cover-art] {
+    width: 50%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+ol[id=tracklist] {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    list-style-position: inside;
+    color: #d8d8d8;
+}
+
+a {
+    color: #d8d8d8;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+a[id="break"] {
+    color: #757575
+}
+
+section[id=releases] {
+    border: none;
+    border-radius: 0;
+    text-align: center;
+    padding: 0;
+    background-color: #10003e6f;
+    margin-bottom: 0;
+}
+
+section[id=albums] {
+    border: none;
+    border-radius: 0;
+    text-align: center;
+    padding: 0;
+    background-color: #48040093;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+section[id=singles] {
+    border: none;
+    border-radius: 0;
+    text-align: center;
+    padding: 0;
+    background-color: #00482486;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+div[id=releaseIndex] {
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div[id=releaseIndexItem] {
+    width: auto;
+    max-width: 553px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+img[id=releaseIndexArt] {
+    margin-top: 10px;
+    width: auto;
+    max-width: 50%;
+    height: auto;
+}
+
+h3[id=releaseTitle] {
+    width: 100%;
+    height: auto;
+    max-height: 30px;
+    display: block;
+    margin: 0;
+    margin-top: 0x;
+}
+
+p[id=releaseYear] {
+    width: auto;
+    height: auto;
+    max-height: 20px;
+    display: block;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #f6f6f6;
+}
+
+button:hover {
+    background-color: #155ab6;
+}
+
+div[id=socials] {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+div[id=music-content] {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+div[id=spotify-embed] {
+    max-width: 800px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+div[id=contact-content] {
+    text-align: center;
+    color: #d8d8d8;
+    margin-bottom: 30px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+#aboutintro {
+    color: #d8d8d8;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 20px;  
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    max-height: 200px;
+}
+
+#bgheader {
+    color: #f6f6f6;
+    text-align: left;
+    margin-top: 20px;
+}
+
+#bginfo {
+    padding: 0;
+    color: #d8d8d8;
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.9em;
+    float: bottom;
+    min-height: 50px;
+}

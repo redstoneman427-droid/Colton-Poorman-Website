@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About | Colton Poorman</title>
+    <link rel="stylesheet" href="coltonpoormanwebsite.css" />
+    <link rel="icon" type="image/x-icon" href="coltonpoormanpic.ico">
+</head>
+
+<body>
+    <header>
+      <div class="block container" id="nav-links">
+        <div class="block block-inline">
+          <a href="https://coltonpoorman.com">
+            <input
+              type="image"
+              src="coltonpoormanpic.png"
+              name="homeButton"
+              class="profile-pic-input"
+              id="homeButton"
+            />
+          </a>        
+         </div>
+        <div class="block block-inline">
+          <a href="music.html">Music</a>
+          <a id="break"> |  </a>
+          <a href="about.html">About</a>  
+          <a id="break"> |  </a>
+          <a href="socials.html">Socials</a>
+          <a id="break"> |  </a>        
+          <a href="https://coltonpoorman.bandcamp.com" target="_blank" rel="noopener noreferrer">Buy my music</a>
+          <a id="break"> |  </a>  
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+
+      <div id="header-content">
+        <h1>About</h1>
+      </div>
+    </header>
+
+<p id="aboutintro">I'm Colton Poorman. I consider myself to be a producer, artist, and DJ. I pretty much just make music for fun, which means that I make whatever music I find interesting at the time. I really love electronic music though, so the music I create tends to primarily be focused around that.</p>
+<h2 id="bgheader">Background</h2>
+  <ul id="bginfo">
+    <li>From Portland, OR</li>
+    <li>Currently based in Eugene, OR</li>
+    <li>Started making music in 2019</li>
+    <li>I play guitar, bass, and piano, and I sing.</li>
+    <li>I DJ! Send me an email if you want to book</li>
+
+  <div id="footer">
+    <footer>
+      <p id="copyright"></p>
+    </footer>
+  </div>
+    <script>
+      const copyright = document.getElementById("copyright");
+      const currentYear = new Date().getFullYear();
+      copyright.textContent = `© ${currentYear} Colton Poorman`;
+    </script>
+    
+</body>
+</html>
